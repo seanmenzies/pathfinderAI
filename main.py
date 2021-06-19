@@ -199,7 +199,7 @@ def generate_board(size, difficulty=3):
     return board
 
 
-board2 = generate_board(25, difficulty=5)
+board2 = generate_board(15, difficulty=5)
 createboard(board2)
 findpath = find_path(board2)
 print_results(board2, findpath)
